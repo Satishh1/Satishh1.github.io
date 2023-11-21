@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lato&family=Montserrat:wght@300;500&family=Open+Sans&family=Oswald&family=Poppins:wght@200&family=Roboto:ital,wght@0,300;0,400;1,400&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300&display=swap');
+
+:root{
+    --black:#1a1a1b;
+    --card:#46323d;
+    --text:#c2c2c2;
+    --text2:#ffffff;
+}
+
+body{
+
+    font-family: 'montserrat';
+    background-color: var(--black);
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+
+    display: grid;
+    place-items: center; 
+    margin: 10em;
+
+    color: var(--text);
+    text-transform: uppercase;
+}
+
+
+
+header h1{
+
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 2px;
+
+
+}
+
+header p{
+    font-size: 1.5rem;
+    min-height: 75vh;
+    font-family: 'Source Code Pro';
+
+
+
+  }
+
+.hidden{
+    opacity: 0;
+    transition: all 1s ease-out;
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+} 
+
+
+.gradient-text{
+    background-image: linear-gradient(85deg, rgb(144, 74, 84), rgb(103, 142, 226));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+main{
+
+    margin: 10rem;
+}
+
+article{
+ 
+    padding: 15px;
+    border-radius: 1rem;
+
+    color: var(--text2);
+    text-align: center;
+    line-height: 1.5rem;
+
+
+  }
+
+.grid-items{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    justify-self: center;
+    gap: 2rem;
+
+    min-height: 100vh;
+
+}
+
+
+.info-1{
+   background-color: var(--card);
+}
+
+
+.info-2{
+
+    background-color: var(--card);
+} 
+
+.info:nth-child(1){
+    transition-delay: 200ms;
+}
+
+.info:nth-child(2){
+    transition-delay: 400ms;
+}
+
+.info:nth-child(3){
+    transition-delay: 600ms;
+}
+
+
+
+  progress{
+      background-color: var(--card);
+      margin-right: 10rem;
+  }
+
+  progress::-webkit-progress-bar{
+
+      background-color: var(--card);
+      width: 18rem;
+
+      border-radius: 5rem;
+  }
+
+  progress::-webkit-progress-value{
+      background-color: var(--text);
+      border-radius: 5rem;
+      width: 18rem;
+  } 
+
+
+.kontakt1{
+ display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+
+min-height: 100vh;
+margin: 15rem;
+
+text-transform: uppercase;
+text-align: center;
+color: var(--text2);
+}
+
+h3{
+    font-size: 40px;
+    text-align: center;
+    color: var(--text2);
+    font-family: "inter";
+} 
+
+h4{
+    font-size: 25px;
+    font-family: "inter";
+}
+
+.kontakt:nth-child(1){
+    transition-delay: 200ms;
+}
+
+.kontakt:nth-child(2){
+    transition-delay: 400ms;
+}
+
+.kontakt:nth-child(3){
+    transition-delay: 6 00ms;
+}
+
+
+
+.foot{
+    margin: 5rem;
+    padding: 20px;
+    border-radius: 1rem;
+
+
+    text-align: center;
+    align-items: center;
+
+    color: var(--text);
+    background-color: var(--card);
+}
