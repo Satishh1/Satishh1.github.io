@@ -148,6 +148,17 @@ article{
       width: 18rem;
   } 
 
+h3{
+
+    font-size: 50px;
+    text-align: center;
+    color: var(--text2);
+    font-family: "inter";
+    text-transform: uppercase;
+    margin: 5rem;
+
+} 
+
 
 .kontakt1{
  display: flex;
@@ -161,16 +172,6 @@ color: var(--text2);
 
 }
 
-h3{
-
-    font-size: 50px;
-    text-align: center;
-    color: var(--text2);
-    font-family: "inter";
-    text-transform: uppercase;
-    margin: 5rem;
-
-} 
 
 h4{
     font-size: 25px;
