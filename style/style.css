@@ -40,7 +40,7 @@ header h1{
 
 header p{
     font-size: 1.5rem;
-    min-height: 75vh;
+    min-height: 65yvh;
     font-family: 'Source Code Pro';
 
 
@@ -71,7 +71,8 @@ header p{
 
 main{
 
-    margin: 10rem;
+    margin: 15rem;
+
 }
 
 article{
@@ -96,6 +97,7 @@ article{
 
     min-height: 100vh;
 
+
 }
 
 
@@ -109,23 +111,27 @@ article{
     background-color: var(--card);
 } 
 
-.info:nth-child(1){
+.info-1:nth-child(1){
     transition-delay: 200ms;
 }
 
-.info:nth-child(2){
+.info-2:nth-child(2){
     transition-delay: 400ms;
 }
 
-.info:nth-child(3){
-    transition-delay: 600ms;
-}
 
+.progressbar{
+ display: grid;
+ place-items: center;
 
+ }
+
+ 
 
   progress{
       background-color: var(--card);
       margin-right: 10rem;
+
   }
 
   progress::-webkit-progress-bar{
@@ -149,24 +155,30 @@ justify-content: space-between;
 align-items: center;
 text-align: center;
 
-min-height: 100vh;
-margin: 15rem;
-
 text-transform: uppercase;
 text-align: center;
 color: var(--text2);
+
 }
 
 h3{
-    font-size: 40px;
+
+    font-size: 50px;
     text-align: center;
     color: var(--text2);
     font-family: "inter";
+    text-transform: uppercase;
+    margin: 5rem;
+
 } 
 
 h4{
     font-size: 25px;
     font-family: "inter";
+}
+
+.kontakt{
+  
 }
 
 .kontakt:nth-child(1){
@@ -178,7 +190,7 @@ h4{
 }
 
 .kontakt:nth-child(3){
-    transition-delay: 6 00ms;
+    transition-delay: 600ms;
 }
 
 
